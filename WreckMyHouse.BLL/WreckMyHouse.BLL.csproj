@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NuGet.Frameworks" Version="6.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WreckMyHouse.Core\WreckMyHouse.Core.csproj" />
+    <ProjectReference Include="..\WreckMyHouse.DAL\WreckMyHouse.DAL.csproj" />
+  </ItemGroup>
+
+</Project>
